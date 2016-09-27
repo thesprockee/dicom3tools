@@ -44,6 +44,7 @@ CompositeIOD="XAImage"		Condition="XAImageInstance"
 		Module="ModalityLUT"				Usage="C"	Condition="XRayNeedModuleModalityLUT"
 		Module="VOILUT"						Usage="U"	Condition="NeedModuleVOILUT"
 		Module="SOPCommon"					Usage="M"
+		Module="CommonInstanceReference"	Usage="U"	Condition="NeedModuleCommonInstanceReference"
 		Module="FrameExtraction"			Usage="C"	Condition="NeedModuleFrameExtraction"
 	InformationEntityEnd
 CompositeIODEnd
@@ -95,6 +96,7 @@ CompositeIOD="XRFImage"		Condition="XRFImageInstance"
 		Module="ModalityLUT"				Usage="C"	Condition="XRayNeedModuleModalityLUT"
 		Module="VOILUT"						Usage="U"	Condition="NeedModuleVOILUT"
 		Module="SOPCommon"					Usage="M"
+		Module="CommonInstanceReference"	Usage="U"	Condition="NeedModuleCommonInstanceReference"
 		Module="FrameExtraction"			Usage="C"	Condition="NeedModuleFrameExtraction"
 	InformationEntityEnd
 CompositeIODEnd
@@ -146,6 +148,7 @@ CompositeIOD="EnhancedXAImage"		Condition="EnhancedXAImageInstance"
 		Module="XRayDetector"						Usage="C"	Condition="XRayReceptorTypeIsDigitalDetector"
 		Module="XAXRFMultiFramePresentation"		Usage="U"	Condition="NeedModuleXAXRFMultiFramePresentation"
 		Module="SOPCommon"							Usage="M"
+		Module="CommonInstanceReference"			Usage="U"	Condition="NeedModuleCommonInstanceReference"
 		Module="FrameExtraction"					Usage="C"	Condition="NeedModuleFrameExtraction"
 	InformationEntityEnd
 CompositeIODEnd
@@ -198,6 +201,7 @@ CompositeIOD="EnhancedXRFImage"		Condition="EnhancedXRFImageInstance"
 		Module="XRayDetector"						Usage="C"	Condition="XRayReceptorTypeIsDigitalDetector"
 		Module="XAXRFMultiFramePresentation"		Usage="U"	Condition="NeedModuleXAXRFMultiFramePresentation"
 		Module="SOPCommon"							Usage="M"
+		Module="CommonInstanceReference"			Usage="U"	Condition="NeedModuleCommonInstanceReference"
 		Module="FrameExtraction"					Usage="C"	Condition="NeedModuleFrameExtraction"
 	InformationEntityEnd
 CompositeIODEnd
@@ -246,6 +250,7 @@ CompositeIOD="XRay3DAngiographicImage"		Condition="XRay3DAngiographicImageInstan
 		Module="XRay3DAngiographicAcquisition"							Usage="U"	Condition="NeedModuleXRay3DAngiographicAcquisition"
 		Module="XRay3DReconstruction"									Usage="U"	Condition="NeedModuleXRay3DReconstruction"
 		Module="SOPCommon"												Usage="M"
+		Module="CommonInstanceReference"								Usage="U"	Condition="NeedModuleCommonInstanceReference"
 		Module="FrameExtraction"										Usage="C"	Condition="NeedModuleFrameExtraction"
 	InformationEntityEnd
 CompositeIODEnd
@@ -292,6 +297,7 @@ CompositeIOD="XRay3DCraniofacialImage"		Condition="XRay3DCraniofacialImageInstan
 		Module="XRay3DCraniofacialAcquisition"							Usage="U"	Condition="NeedModuleXRay3DCraniofacialAcquisition"
 		Module="XRay3DReconstruction"									Usage="U"	Condition="NeedModuleXRay3DReconstruction"
 		Module="SOPCommon"												Usage="M"
+		Module="CommonInstanceReference"								Usage="U"	Condition="NeedModuleCommonInstanceReference"
 		Module="FrameExtraction"										Usage="C"	Condition="NeedModuleFrameExtraction"
 	InformationEntityEnd
 CompositeIODEnd

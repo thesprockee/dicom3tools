@@ -1,9 +1,10 @@
-.TH DCSMPTE 1 "15 February 2001" "DICOM PS3" "Create DICOM SMPTE pattern"
+.TH DCSMPTE 1 "6 March 2014" "DICOM PS3" "Create DICOM SMPTE pattern"
 .SH NAME
 dcsmpte \- ACR/NEMA DICOM PS3 ... Create DICOM SMPTE pattern
 .SH SYNOPSIS
 .HP 10
 .B dcsmpte
+.so man1/gen.so
 [
 .B \-columns|\-cols|\-x " columns"
 ]
@@ -109,19 +110,19 @@ correctly handles Photometric Interpretation.
 .RE
 # Create a 12 bit pattern from 0 to 4095 ...
 .RE
-% dcsmpte -rows 512 -cols -bits 12 -minval 0 -maxval 4095 smpte.dc3
+% dcsmpte -rows 512 -cols 512 -bits 12 -minval 0 -maxval 4095 smpte.dc3
 .RE
 \ 
 .RE
 # Create a signed 12 bit pattern from -1024 to 3071 ...
 .RE
-% dcsmpte -rows 512 -cols -bits 12 -minval ' -1024' -maxval 3071 -signed
+% dcsmpte -rows 512 -cols 512 -bits 12 -minval ' -1024' -maxval 3071 -signed
 .RE
 \ 
 .RE
 # Create a signed 16 bit pattern from -1024 to 3071 ...
 .RE
-% dcsmpte -rows 512 -cols -bits 16 -minval ' -1024' -maxval 3071 -signed
+% dcsmpte -rows 512 -cols 512 -bits 16 -minval ' -1024' -maxval 3071 -signed
 .RE
 .SH FILES
 .LP
@@ -132,7 +133,7 @@ correctly handles Photometric Interpretation.
 .BR dcbriggs(1) ,
 .BR dcintro(1)
 .SH AUTHOR
-Copyright (C) 1993-2010. David A. Clunie DBA PixelMed Publishing. All rights reserved.
+Copyright (c) 1993-2015, David A. Clunie DBA PixelMed Publishing. All rights reserved.
 .SH BUGS
 The crosshatch lines are covered by the grayscales squares rather than
 over the top of them as is usually implemented and implied by the

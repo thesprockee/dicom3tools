@@ -32,6 +32,7 @@ CompositeIOD="RTImage"		Condition="RTImageInstance"
 		Module="VOILUT"						Usage="U"	Condition="NeedModuleVOILUT"
 		Module="Approval"					Usage="U"	Condition="NeedModuleApproval"
 		Module="SOPCommon"					Usage="M"
+		Module="CommonInstanceReference"	Usage="U"	Condition="NeedModuleCommonInstanceReference"
 		Module="FrameExtraction"			Usage="C"	Condition="NeedModuleFrameExtraction"
 	InformationEntityEnd
 CompositeIODEnd
@@ -73,6 +74,7 @@ CompositeIOD="RTDose"		Condition="RTDoseInstance"
 		Module="ROIContour"					Usage="C"	Condition="DoseDataPointsOrCurves"
 		Module="RTDoseROI"					Usage="C"	Condition="DoseDataPointsOrCurves"
 		Module="SOPCommon"					Usage="M"
+		Module="CommonInstanceReference"	Usage="U"	Condition="NeedModuleCommonInstanceReference"
 		Module="FrameExtraction"			Usage="C"	Condition="NeedModuleFrameExtraction"
 	InformationEntityEnd
 CompositeIODEnd
@@ -103,6 +105,7 @@ CompositeIOD="RTStructureSet"		Condition="RTStructureSetInstance"
 		Module="RTROIObservations"			Usage="M"
 		Module="Approval"					Usage="U"	Condition="NeedModuleApproval"
 		Module="SOPCommon"					Usage="M"
+		Module="CommonInstanceReference"	Usage="U"	Condition="NeedModuleCommonInstanceReference"
 	InformationEntityEnd
 CompositeIODEnd
 
@@ -139,6 +142,7 @@ CompositeIOD="RTPlan"			Condition="RTPlanInstance"
 		Module="RTBrachyApplicationSetups"	Usage="C"	Condition="NeedRTBrachyApplicationSetups"
 		Module="Approval"					Usage="U"	Condition="NeedModuleApproval"
 		Module="SOPCommon"					Usage="M"
+		Module="CommonInstanceReference"	Usage="U"	Condition="NeedModuleCommonInstanceReference"
 	InformationEntityEnd
 CompositeIODEnd
 
@@ -171,6 +175,7 @@ CompositeIOD="RTBeamsTreatmentRecord"			Condition="RTBeamsTreatmentRecordInstanc
 		Module="RTBeamsSessionRecord"			Usage="M"
 		Module="RTTreatmentSummaryRecord"		Usage="U"	Condition="NeedModuleRTTreatmentSummaryRecord"
 		Module="SOPCommon"						Usage="M"
+		Module="CommonInstanceReference"	Usage="U"	Condition="NeedModuleCommonInstanceReference"
 	InformationEntityEnd
 CompositeIODEnd
 
@@ -203,6 +208,7 @@ CompositeIOD="RTBrachyTreatmentRecord"			Condition="RTBrachyTreatmentRecordInsta
 		Module="RTBrachySessionRecord"			Usage="M"
 		Module="RTTreatmentSummaryRecord"		Usage="U"	Condition="NeedModuleRTTreatmentSummaryRecord"
 		Module="SOPCommon"						Usage="M"
+		Module="CommonInstanceReference"	Usage="U"	Condition="NeedModuleCommonInstanceReference"
 	InformationEntityEnd
 CompositeIODEnd
 
@@ -230,6 +236,7 @@ CompositeIOD="RTTreatmentSummaryRecord"			Condition="RTTreatmentSummaryRecordIns
 		Module="RTGeneralTreatmentRecord"	Usage="M"
 		Module="RTTreatmentSummaryRecord"	Usage="U"	Condition="NeedModuleRTTreatmentSummaryRecord"
 		Module="SOPCommon"					Usage="M"
+		Module="CommonInstanceReference"	Usage="U"	Condition="NeedModuleCommonInstanceReference"
 	InformationEntityEnd
 CompositeIODEnd
 
@@ -265,6 +272,7 @@ CompositeIOD="RTIonPlan"			Condition="RTIonPlanInstance"
 		Module="RTIonBeams"					Usage="C"	Condition="NeedRTIonBeams"
 		Module="Approval"					Usage="U"	Condition="NeedModuleApproval"
 		Module="SOPCommon"					Usage="M"
+		Module="CommonInstanceReference"	Usage="U"	Condition="NeedModuleCommonInstanceReference"
 	InformationEntityEnd
 CompositeIODEnd
 
@@ -297,6 +305,7 @@ CompositeIOD="RTIonBeamsTreatmentRecord"			Condition="RTIonBeamsTreatmentRecordI
 		Module="RTIonBeamsSessionRecord"		Usage="M"
 		Module="RTTreatmentSummaryRecord"		Usage="U"	Condition="NeedModuleRTTreatmentSummaryRecord"
 		Module="SOPCommon"						Usage="M"
+		Module="CommonInstanceReference"	Usage="U"	Condition="NeedModuleCommonInstanceReference"
 	InformationEntityEnd
 CompositeIODEnd
 

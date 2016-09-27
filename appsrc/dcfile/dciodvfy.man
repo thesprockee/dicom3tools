@@ -1,9 +1,10 @@
-.TH DCIODVFY 1 "28 September 2008" "DICOM PS3" "DICOM PS3 - Validate DICOM objects"
+.TH DCIODVFY 1 "6 March 2014" "DICOM PS3" "DICOM PS3 - Validate DICOM objects"
 .SH NAME
 dciodvfy \- ACR/NEMA DICOM PS3 ... DICOM PS3 - Validate DICOM objects
 .SH SYNOPSIS
 .HP 10
 .B dciodvfy
+.so man1/gen.so
 [
 .B \-profile profilename
 ]
@@ -120,5 +121,5 @@ Error - Missing attribute Type 1 Required ...
 .BR dcfile(1) ,
 .BR dcintro(1)
 .SH AUTHOR
-Copyright (C) 1993-2010. David A. Clunie DBA PixelMed Publishing. All rights reserved.
+Copyright (c) 1993-2015, David A. Clunie DBA PixelMed Publishing. All rights reserved.
 .SH BUGS

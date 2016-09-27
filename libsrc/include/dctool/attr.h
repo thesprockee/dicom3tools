@@ -1,3 +1,4 @@
+/* attr.h Copyright (c) 1993-2015, David A. Clunie DBA PixelMed Publishing. All rights reserved. */
 // public interface for Attribute class
 
 #ifndef __Header_attr__
@@ -6,6 +7,7 @@
 #include "ie.h"
 #include "attrtag.h"
 #include "charset.h"
+#include "vr.h"
 
 class AttributeList;
 class OtherUnspecifiedLargeAttributeBase;

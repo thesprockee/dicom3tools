@@ -1,3 +1,4 @@
+/* elmentry.h Copyright (c) 1993-2015, David A. Clunie DBA PixelMed Publishing. All rights reserved. */
 #ifndef __Header_elmentry__
 #define __Header_elmentry__
 
@@ -13,6 +14,7 @@ public:
 	const char *	Keyword;
 	const char *	Description;
 	bool	Retired;
+	bool	RenderAsString;
 };
 
 #endif /* __Header_elmentry__ */

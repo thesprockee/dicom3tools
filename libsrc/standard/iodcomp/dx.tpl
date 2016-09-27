@@ -45,6 +45,7 @@ CompositeIOD="DXImageForProcessing"			Condition="DXImageForProcessingInstance"
 		Module="ImageHistogram"				Usage="U"	Condition="NeedModuleImageHistogram"
 		Module="AcquisitionContext"			Usage="M"
 		Module="SOPCommon"					Usage="M"
+		Module="CommonInstanceReference"	Usage="U"	Condition="NeedModuleCommonInstanceReference"
 		Module="CheckSingleFramePseudo"		Usage="M"
 	InformationEntityEnd
 CompositeIODEnd
@@ -96,6 +97,7 @@ CompositeIOD="DXImageForPresentation"			Condition="DXImageForPresentationInstanc
 		Module="ImageHistogram"				Usage="U"	Condition="NeedModuleImageHistogram"
 		Module="AcquisitionContext"			Usage="M"
 		Module="SOPCommon"					Usage="M"
+		Module="CommonInstanceReference"	Usage="U"	Condition="NeedModuleCommonInstanceReference"
 		Module="CheckSingleFramePseudo"		Usage="M"
 	InformationEntityEnd
 CompositeIODEnd
@@ -149,6 +151,7 @@ CompositeIOD="MammographyImageForProcessing"			Condition="MammographyImageForPro
 		Module="ImageHistogram"				Usage="U"	Condition="NeedModuleImageHistogram"
 		Module="AcquisitionContext"			Usage="M"
 		Module="SOPCommon"					Usage="M"
+		Module="CommonInstanceReference"	Usage="U"	Condition="NeedModuleCommonInstanceReference"
 		Module="CheckSingleFramePseudo"		Usage="M"
 	InformationEntityEnd
 CompositeIODEnd
@@ -202,6 +205,7 @@ CompositeIOD="MammographyImageForPresentation"			Condition="MammographyImageForP
 		Module="ImageHistogram"				Usage="U"	Condition="NeedModuleImageHistogram"
 		Module="AcquisitionContext"			Usage="M"
 		Module="SOPCommon"					Usage="M"
+		Module="CommonInstanceReference"	Usage="U"	Condition="NeedModuleCommonInstanceReference"
 		Module="CheckSingleFramePseudo"		Usage="M"
 	InformationEntityEnd
 CompositeIODEnd
@@ -255,6 +259,7 @@ CompositeIOD="MammographyImageForProcessingIHEMammo"			Condition="MammographyIma
 		Module="ImageHistogram"				Usage="U"	Condition="NeedModuleImageHistogram"
 		Module="AcquisitionContext"			Usage="M"
 		Module="SOPCommon"					Usage="M"
+		Module="CommonInstanceReference"	Usage="U"	Condition="NeedModuleCommonInstanceReference"
 		Module="CheckSingleFramePseudo"		Usage="M"
 		Module="IHEMammoProfile"			Usage="M"
 		Module="IHEMammoProfileWithoutPartialViewOption"		Usage="M"
@@ -310,6 +315,7 @@ CompositeIOD="MammographyImageForProcessingIHEMammoPartialViewOption"			Conditio
 		Module="ImageHistogram"				Usage="U"	Condition="NeedModuleImageHistogram"
 		Module="AcquisitionContext"			Usage="M"
 		Module="SOPCommon"					Usage="M"
+		Module="CommonInstanceReference"	Usage="U"	Condition="NeedModuleCommonInstanceReference"
 		Module="CheckSingleFramePseudo"		Usage="M"
 		Module="IHEMammoProfile"			Usage="M"
 		Module="IHEMammoProfileWithPartialViewOption"		Usage="M"
@@ -365,6 +371,7 @@ CompositeIOD="MammographyImageForPresentationIHEMammo"			Condition="MammographyI
 		Module="ImageHistogram"				Usage="U"	Condition="NeedModuleImageHistogram"
 		Module="AcquisitionContext"			Usage="M"
 		Module="SOPCommon"					Usage="M"
+		Module="CommonInstanceReference"	Usage="U"	Condition="NeedModuleCommonInstanceReference"
 		Module="CheckSingleFramePseudo"		Usage="M"
 		Module="IHEMammoProfile"			Usage="M"
 		Module="IHEMammoProfileWithoutPartialViewOption"		Usage="M"
@@ -421,6 +428,7 @@ CompositeIOD="MammographyImageForPresentationIHEMammoPartialViewOption"			Condit
 		Module="ImageHistogram"				Usage="U"	Condition="NeedModuleImageHistogram"
 		Module="AcquisitionContext"			Usage="M"
 		Module="SOPCommon"					Usage="M"
+		Module="CommonInstanceReference"	Usage="U"	Condition="NeedModuleCommonInstanceReference"
 		Module="CheckSingleFramePseudo"		Usage="M"
 		Module="IHEMammoProfile"			Usage="M"
 		Module="IHEMammoProfileWithPartialViewOption"		Usage="M"
@@ -477,6 +485,7 @@ CompositeIOD="IntraoralImageForProcessing"			Condition="IntraoralImageForProcess
 		Module="ImageHistogram"				Usage="U"	Condition="NeedModuleImageHistogram"
 		Module="AcquisitionContext"			Usage="M"
 		Module="SOPCommon"					Usage="M"
+		Module="CommonInstanceReference"	Usage="U"	Condition="NeedModuleCommonInstanceReference"
 		Module="CheckSingleFramePseudo"		Usage="M"
 	InformationEntityEnd
 CompositeIODEnd
@@ -530,6 +539,7 @@ CompositeIOD="IntraoralImageForPresentation"			Condition="IntraoralImageForPrese
 		Module="ImageHistogram"				Usage="U"	Condition="NeedModuleImageHistogram"
 		Module="AcquisitionContext"			Usage="M"
 		Module="SOPCommon"					Usage="M"
+		Module="CommonInstanceReference"	Usage="U"	Condition="NeedModuleCommonInstanceReference"
 		Module="CheckSingleFramePseudo"		Usage="M"
 	InformationEntityEnd
 CompositeIODEnd
@@ -583,6 +593,7 @@ CompositeIOD="IntraoralImageForPresentationDentalMedia"			Condition="IntraoralIm
 		Module="ImageHistogram"				Usage="U"	Condition="NeedModuleImageHistogram"
 		Module="AcquisitionContext"			Usage="M"
 		Module="SOPCommon"					Usage="M"
+		Module="CommonInstanceReference"	Usage="U"	Condition="NeedModuleCommonInstanceReference"
 		Module="CheckSingleFramePseudo"		Usage="M"
 		Module="DentalImageOnMediaProfile"	Usage="M"
 	InformationEntityEnd
@@ -635,6 +646,7 @@ CompositeIOD="DXImageForPresentationDentalMedia"			Condition="DXImageForPresenta
 		Module="ImageHistogram"				Usage="U"	Condition="NeedModuleImageHistogram"
 		Module="AcquisitionContext"			Usage="M"
 		Module="SOPCommon"					Usage="M"
+		Module="CommonInstanceReference"	Usage="U"	Condition="NeedModuleCommonInstanceReference"
 		Module="CheckSingleFramePseudo"		Usage="M"
 		Module="DentalImageOnMediaProfile"	Usage="M"
 	InformationEntityEnd
@@ -683,6 +695,102 @@ CompositeIOD="BreastTomosynthesisImage"					Condition="BreastTomosynthesisInstan
 		Module="XRay3DReconstruction"									Usage="U"	Condition="NeedModuleXRay3DReconstruction"
 		Module="BreastView"												Usage="M"
 		Module="SOPCommon"												Usage="M"
+		Module="CommonInstanceReference"	Usage="U"	Condition="NeedModuleCommonInstanceReference"
 		Module="FrameExtraction"										Usage="C"	Condition="NeedModuleFrameExtraction"
+	InformationEntityEnd
+CompositeIODEnd
+
+CompositeIOD="BreastTomosynthesisImageIHEDBT"				Condition="BreastTomosynthesisInstance"	Profile="IHEDBT"
+	InformationEntity="File"
+		Module="FileMetaInformation"					Usage="C"	Condition="NeedModuleFileMetaInformation"
+	InformationEntityEnd
+	InformationEntity="Patient"
+		Module="Patient"								Usage="M"
+		Module="ClinicalTrialSubject"					Usage="U"	Condition="NeedModuleClinicalTrialSubject"
+	InformationEntityEnd
+	InformationEntity="Study"
+		Module="GeneralStudy"							Usage="M"
+		Module="PatientStudy"							Usage="U"	# no condition ... all attributes type 3
+		Module="ClinicalTrialStudy"						Usage="U"	Condition="NeedModuleClinicalTrialStudy"
+	InformationEntityEnd
+	InformationEntity="Series"
+		Module="GeneralSeries"							Usage="M"
+		Module="ClinicalTrialSeries"					Usage="U"	Condition="NeedModuleClinicalTrialSeries"
+		Module="EnhancedMammographySeries"				Usage="M"
+	InformationEntityEnd
+	InformationEntity="FrameOfReference"
+		Module="FrameOfReference"						Usage="U"	Condition="NeedModuleFrameOfReference"
+		Module="Synchronization"						Usage="U"	Condition="NeedToCheckModuleSynchronization"
+	InformationEntityEnd
+	InformationEntity="Equipment"
+		Module="GeneralEquipment"						Usage="M"
+		Module="EnhancedGeneralEquipment"				Usage="M"
+	InformationEntityEnd
+	InformationEntity="Image"
+		Module="ImagePixel"												Usage="M"
+		Module="EnhancedContrastBolus"									Usage="C"	Condition="NeedModuleEnhancedContrastBolus"
+		Module="Device"													Usage="U"	Condition="NeedModuleDevice"
+		Module="Intervention"											Usage="U"	Condition="NeedModuleIntervention"
+		Module="AcquisitionContext"										Usage="M"
+		Module="MultiFrameFunctionalGroupsCommon"						Usage="M"
+		Module="MultiFrameFunctionalGroupsForBreastTomosynthesisImage"	Usage="M"
+		Module="MultiFrameDimension"									Usage="U"	Condition="NeedModuleMultiFrameDimension"
+		Module="ImageEquipmentCoordinateRelationship"					Usage="U"	Condition="NeedModuleImageEquipmentCoordinateRelationship"
+		Module="Specimen"												Usage="U"	Condition="NeedModuleSpecimen"
+		Module="XRay3DImage"											Usage="M"
+		Module="BreastTomosynthesisContributingSources"					Usage="U"	Condition="NeedModuleBreastTomosynthesisContributingSources"
+		Module="BreastTomosynthesisAcquisition"							Usage="U"	Condition="NeedModuleBreastTomosynthesisAcquisition"
+		Module="XRay3DReconstruction"									Usage="U"	Condition="NeedModuleXRay3DReconstruction"
+		Module="BreastView"												Usage="M"
+		Module="SOPCommon"												Usage="M"
+		Module="CommonInstanceReference"	Usage="U"	Condition="NeedModuleCommonInstanceReference"
+		Module="FrameExtraction"										Usage="C"	Condition="NeedModuleFrameExtraction"
+		Module="IHEDBTProfile"			Usage="M"
+	InformationEntityEnd
+CompositeIODEnd
+
+CompositeIOD="BreastProjectionXRayImage"	Condition="BreastProjectionXRayImageInstance"
+	InformationEntity="File"
+		Module="FileMetaInformation"					Usage="C"	Condition="NeedModuleFileMetaInformation"
+	InformationEntityEnd
+	InformationEntity="Patient"
+		Module="Patient"								Usage="M"
+		Module="ClinicalTrialSubject"					Usage="U"	Condition="NeedModuleClinicalTrialSubject"
+	InformationEntityEnd
+	InformationEntity="Study"
+		Module="GeneralStudy"							Usage="M"
+		Module="PatientStudy"							Usage="U"	# no condition ... all attributes type 3
+		Module="ClinicalTrialStudy"						Usage="U"	Condition="NeedModuleClinicalTrialStudy"
+	InformationEntityEnd
+	InformationEntity="Series"
+		Module="GeneralSeries"							Usage="M"
+		Module="ClinicalTrialSeries"					Usage="U"	Condition="NeedModuleClinicalTrialSeries"
+		Module="DXSeries"								Usage="M"
+		Module="EnhancedMammographySeries"				Usage="M"
+	InformationEntityEnd
+	InformationEntity="FrameOfReference"
+		Module="FrameOfReference"						Usage="M"
+		Module="Synchronization"						Usage="U"	Condition="NeedToCheckModuleSynchronization"
+	InformationEntityEnd
+	InformationEntity="Equipment"
+		Module="GeneralEquipment"						Usage="M"
+		Module="EnhancedGeneralEquipment"				Usage="M"
+	InformationEntityEnd
+	InformationEntity="Image"
+		Module="EnhancedMammographyImage"				Usage="M"
+		Module="BreastView"								Usage="M"
+		Module="ImagePixel"								Usage="M"
+		Module="EnhancedContrastBolus"					Usage="C"	Condition="NeedModuleEnhancedContrastBolus"
+		Module="Device"									Usage="U"	Condition="NeedModuleDevice"
+		Module="Intervention"							Usage="U"	Condition="NeedModuleIntervention"
+		Module="AcquisitionContext"						Usage="M"
+		Module="MultiFrameFunctionalGroupsCommon"		Usage="M"
+		Module="MultiFrameFunctionalGroupsForBreastProjectionXRayImage"	Usage="M"
+		Module="MultiFrameDimension"					Usage="U"	Condition="NeedModuleMultiFrameDimension"
+		Module="PatientOrientation"						Usage="M"
+		Module="Specimen"								Usage="U"	Condition="NeedModuleSpecimen"
+		Module="SOPCommon"								Usage="M"
+		Module="CommonInstanceReference"				Usage="U"	Condition="NeedModuleCommonInstanceReference"
+		Module="FrameExtraction"						Usage="C"	Condition="NeedModuleFrameExtraction"
 	InformationEntityEnd
 CompositeIODEnd

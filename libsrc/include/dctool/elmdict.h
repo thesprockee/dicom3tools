@@ -1,3 +1,4 @@
+/* elmdict.h Copyright (c) 1993-2015, David A. Clunie DBA PixelMed Publishing. All rights reserved. */
 #ifndef __Header_elmdict__
 #define __Header_elmdict__
 
@@ -20,9 +21,11 @@ public:
 	const char *	getKeyword(Tag t) const;
 	bool		getTag(const char *keyword,Tag& tr) const;
 	bool		isRetired(Tag& t) const;
+	bool		isRenderAsString(Tag& t) const;
 
-	void		addOwner(Tag t,const char *owner);
-	bool		hasOwner(Tag& t) const;
+	void			addOwner(Tag t,const char *owner);
+	bool			hasOwner(Tag& t) const;
+	const char *	getOwner(Tag& t) const;
 };
 
 #endif /* __Header_elmdict__ */
